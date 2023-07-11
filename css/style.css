@@ -33,7 +33,14 @@ font-family: 'Kanit', sans-serif; */
 
 .divNavBar1{
     padding-right: 10px;
+    
 }
+
+.divNavBar1 a{
+    margin-right: 10px;
+}
+
+
 
 .divNavBar2{
     padding-left: 130px;
@@ -49,7 +56,35 @@ font-family: 'Kanit', sans-serif; */
     background-color: #dadbf1;
     height: 500px;
     text-align: center;
+    align-items: center;
     justify-content: center;
     font-family: 'Caprasimo', cursive;
     font-size:30px;
+    
 }
+
+.menuHelp h1{
+    margin-bottom: 45px;
+}
+
+.inputHelp{
+    display: flex;
+    width: 500px;
+    height: 64px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputHelp input {
+    border: none;
+    padding: 15px;
+    width: 420px;
+}
+
+.inputHelp i{
+    padding: 15px;
+}
+
