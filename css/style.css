@@ -68,23 +68,26 @@ font-family: 'Kanit', sans-serif; */
 }
 
 .inputHelp{
+    position: relative;
     display: flex;
-    width: 500px;
-    height: 64px;
-    border: 2px solid black;
-    background-color: white;
-    border-radius: 5px;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    
 }
 
 .inputHelp input {
-    border: none;
-    padding: 15px;
-    width: 420px;
+    padding-left:20px;
+    height: 76px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    width: 600px;
+    font-size: 20px;
 }
 
 .inputHelp i{
-    padding: 15px;
+    position: absolute;
+    padding-right:20px;
 }
+
 
