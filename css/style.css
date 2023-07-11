@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Kanit:wght@200;300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;   
+}
+
+/* font-family: 'Caprasimo', cursive;
+font-family: 'Kanit', sans-serif; */
+
+.navBar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    background-color: #000000;
+    color: white;
+    font-family:'Kanit', sans-serif; 
+    height: 100px;
+    align-items: center;
+    justify-items: center;
+    column-gap: 200px;
+    font-size: 25px;
+    
+}
+.navBar button{
+    display: none;
+}
+
+.sinStyle{
+    color: white;
+}
+
+.divNavBar1{
+    padding-right: 10px;
+}
+
+.divNavBar2{
+    padding-left: 130px;
+}
+
+.divNavBar2 a{  
+    margin: 26px;
+}
+
+.menuHelp{
+    display: flex;
+    flex-direction: column;
+    background-color: #dadbf1;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Caprasimo', cursive;
+    font-size:30px;
+}
